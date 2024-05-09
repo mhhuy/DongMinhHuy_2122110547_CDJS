@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+}
+li {
+  display: flex;
+  align-items: center; 
+  padding: 10px; 
+  border-bottom: 1px solid #ddd; 
+}
+button {
+  background-color: transparent; 
+  border: none; 
+  cursor: pointer; 
+  margin-left: auto; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  color: red; 
+}
+
+button:hover {
+  background-color: #eee; 
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+          <h2 class="card-header text-center">Nhập thông tin môn học cần thêm</h2>
+          <div class="card-body">
+            <form id="formThemMonHoc">
+              <div class="form-group">
+                <label for="tenmh">Tên môn học:</label>
+                <input type="text" class="form-control" id="tenMonHoc" name="tenmh" required>
+              </div>
+              <button type="submit" class="btn btn-primary mt-1">Thêm</button>
+            </form>
+          </div>
+        </div>
+
+        <h2 class="text-center mt-5">Thông tin môn học đã thêm</h2>
+            <ul id="danhSachMonHoc"></ul>
+    </div>
+    <script src="bai2.js"></script>
+</body>
+</html>
+ 

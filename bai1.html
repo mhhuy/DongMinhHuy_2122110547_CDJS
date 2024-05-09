@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin Sinh viên</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            background-color: #4caf50;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Thông tin Sinh viên</h2>
+        <form onsubmit="return validateForm()" action="#" method="post">
+            <div>
+                <label for="masv">Mã SV:</label>
+                <input type="text" id="masv" name="masv" required>
+                <!-- <span id="masvError" class="error"></span> -->
+            </div>
+            <div>
+                <label for="hoten">Họ Tên:</label>
+                <input type="text" id="hoten" name="hoten" required>
+                <!-- <span id="hotenError" class="error"></span> -->
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <!-- <span id="emailError" class="error"></span> -->
+            </div>
+            <div>
+                <label for="dienthoai">Điện Thoại:</label>
+                <input type="tel" id="dienthoai" name="dienthoai" required>
+                <!-- <span id="dienthoaiError" class="error"></span> -->
+            </div>
+            <div>
+                <label for="lop">Lớp:</label>
+                <input type="text" id="lop" name="lop" required>
+                <!-- <span id="lopError" class="error"></span> -->
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+
+<script src="bai1.js"></script>
+</body>
+</html>
