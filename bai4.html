@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DongMinhHuy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .ketqua {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+        .ketqua p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Ứng Dụng Tính Toán Toán Học</h1>
+        <div class="calculator">
+            <div class="form-group">
+                <label for="num1">Nhập số thứ nhất:</label>
+                <input type="number" class="form-control" id="num1" required>
+            </div>
+            <div class="form-group">
+                <label for="num2">Nhập số thứ hai:</label>
+                <input type="number" class="form-control" id="num2" required>
+            </div>
+        </div>
+        <h1 class="mt-2">Chọn Chức Năng</h1>
+        <div class="process">
+            <button class="btn btn-primary" onclick="Tong()">+</button>
+            <button class="btn btn-primary" onclick="Hieu()">-</button>
+            <button class="btn btn-primary" onclick="Tich()">x</button>
+            <button class="btn btn-primary" onclick="Thương()">/</button>
+            <button class="btn btn-primary" onclick="Canbathai()">Căn bật hai</button>
+            <button class="btn btn-primary" onclick="Luythua()">Lũy thừa</button>
+        </div>
+
+        <div class="ketqua mt-2">
+            <p>Kết quả là:<p id="result"></p></p>
+        </div>
+    </div>
+    
+    <script src="bai4.js"></script>
+</body>
+</html>
