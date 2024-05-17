@@ -9,8 +9,13 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { FaCartPlus } from "react-icons/fa6";
+import Slider from "./Component/Slider";
+import Policyitem from "./Component/Policyitem";
+import Database from "./data_fake.json"
+import Productitem from "./Component/Productitem";
 
 function App() {
+  const listproduct = Database.products;
   return (
     <>
       <header className="bg-light">
@@ -62,7 +67,7 @@ function App() {
                           data-bs-toggle="dropdown"
                           aria-expanded="false"
                         >
-                         Linh kiện
+                          Linh kiện
                         </a>
                         <ul class="dropdown-menu">
                           <li>
@@ -105,280 +110,68 @@ function App() {
                   </div>
                 </div>
                 <div>
-                  <a class="nav-link active" href="#"><FaRegUser /></a>
+                  <a class="nav-link active" href="#">
+                    <FaRegUser />
+                  </a>
                 </div>
                 <div>
-                  <a class="nav-link" href="#"><FaCartPlus /></a>
+                  <a class="nav-link" href="#">
+                    <FaCartPlus />
+                  </a>
                 </div>
               </nav>
             </div>
-            <div col-md-2>
-              
-            </div>
+            <div col-md-2></div>
           </div>
         </div>
       </header>
       <main className="bg-light">
+        <div>
+          <Slider/>
+        </div>
         <div className="container">
-          <div id="carouselExampleDark" class="carousel carousel-dark slide mt-2">
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
+          <div className="row mt-3">
+            <div className="col-md-3">
+              <Policyitem
+                image="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/ser_1.svg?1712897547805"
+                tittle="Vận chuyển miễn phí"
+                desc="Hóa đơn trên 5 triệu"
+              />
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img
-                  src="https://bizweb.dktcdn.net/100/502/483/themes/941751/assets/home_slider_2.jpg?1715769761546"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img
-                  src="https://file.hstatic.net/200000722513/file/uu_dai_soc_b6303389c3fb4f26b05bd368f3d61486.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://file.hstatic.net/200000722513/file/loa_xin_slider_55571db8742146cd85eef265cf950b35.png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
+            <div className="col-md-3">
+              <Policyitem
+                image="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/ser_2.svg?1712897547805"
+                tittle="Quà tặng hấp dẫn"
+                desc="Hóa đơn trên 10 triệu"
+              />
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div className="col-md-3">
+              <Policyitem
+                image="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/ser_3.svg?1712897547805"
+                tittle="Chứng nhận chất lượng"
+                desc="Sản phẩm chính hãng"
+              />
+            </div>
+            <div className="col-md-3">
+              <Policyitem
+                image="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/ser_4.svg?1712897547805"
+                tittle="Hotline: 1900 9090"
+                desc="Hỗ trợ 24/7"
+              />
+            </div>
+            <hr />
           </div>
         </div>
-        <div class="container mt-5">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="card mb-4">
-                <img
-                  src="https://bizweb.dktcdn.net/thumb/large/100/502/483/products/tai-nghe-edifier-w830bt-5-jpg-v-1658377631820.jpg?v=1703666878963"
-                  class="card-img-top"
-                  alt="Product-image"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Product 1</h5>
-                  <p>
-                    Price: <span class="price">$19.99</span>
-                  </p>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <div class="product-details d-flex justify-content-between align-items-center">
-                    <a href="#" class="btn btn-danger btn-sm">
-                      Mua ngay
-                    </a>
+        <div className="section_product">
+          <div class="container mt-5">
+            <div class="row">
+              {listproduct.map((pt, index)=>{
+                return (
+                  <div className="col-md-3" key={index}>
+                    <Productitem product={pt}/>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card mb-4">
-                <img
-                  src="https://bizweb.dktcdn.net/thumb/large/100/502/483/products/tai-nghe-edifier-w830bt-5-jpg-v-1658377631820.jpg?v=1703666878963"
-                  class="card-img-top"
-                  alt="Product-image"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Product 2</h5>
-                  <p>
-                    Price: <span class="price">$19.99</span>
-                  </p>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <div className="row">
-                    <div class="product-details d-flex justify-content-between align-items-center">
-                      <a href="#" class="btn btn-danger btn-sm">
-                        Mua ngay
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card mb-4">
-                <img
-                  src="https://bizweb.dktcdn.net/thumb/large/100/502/483/products/tai-nghe-edifier-w830bt-5-jpg-v-1658377631820.jpg?v=1703666878963"
-                  class="card-img-top"
-                  alt="Product-image"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Product 3</h5>
-                  <p>
-                    Price: <span class="price">$19.99</span>
-                  </p>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <div class="product-details d-flex justify-content-between align-items-center">
-                    <a href="#" class="btn btn-danger btn-sm">
-                      Mua ngay
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card mb-4">
-                <img
-                  src="https://bizweb.dktcdn.net/thumb/large/100/502/483/products/tai-nghe-edifier-w830bt-5-jpg-v-1658377631820.jpg?v=1703666878963"
-                  class="card-img-top"
-                  alt="Product-image"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Product 4</h5>
-                  <p>
-                    Price: <span class="price">$19.99</span>
-                  </p>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <div class="product-details d-flex justify-content-between align-items-center">
-                    <a href="#" class="btn btn-danger btn-sm">
-                      Mua ngay
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card mb-4">
-                <img
-                  src="https://bizweb.dktcdn.net/thumb/large/100/502/483/products/tai-nghe-edifier-w830bt-5-jpg-v-1658377631820.jpg?v=1703666878963"
-                  class="card-img-top"
-                  alt="Product-image"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Product 1</h5>
-                  <p>
-                    Price: <span class="price">$19.99</span>
-                  </p>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <div class="product-details d-flex justify-content-between align-items-center">
-                    <a href="#" class="btn btn-danger btn-sm">
-                      Mua ngay
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card mb-4">
-                <img
-                  src="https://bizweb.dktcdn.net/thumb/large/100/502/483/products/tai-nghe-edifier-w830bt-5-jpg-v-1658377631820.jpg?v=1703666878963"
-                  class="card-img-top"
-                  alt="Product-image"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Product 2</h5>
-                  <p>
-                    Price: <span class="price">$19.99</span>
-                  </p>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <div class="product-details d-flex justify-content-between align-items-center">
-                    <a href="#" class="btn btn-danger btn-sm">
-                      Mua ngay
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card mb-4">
-                <img
-                  src="https://bizweb.dktcdn.net/thumb/large/100/502/483/products/tai-nghe-edifier-w830bt-5-jpg-v-1658377631820.jpg?v=1703666878963"
-                  class="card-img-top"
-                  alt="Product-image"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Product 3</h5>
-                  <p>
-                    Price: <span class="price">$19.99</span>
-                  </p>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <div class="product-details d-flex justify-content-between align-items-center">
-                    <a href="#" class="btn btn-danger btn-sm">
-                      Mua ngay
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card mb-4">
-                <img
-                  src="https://bizweb.dktcdn.net/thumb/large/100/502/483/products/tai-nghe-edifier-w830bt-5-jpg-v-1658377631820.jpg?v=1703666878963"
-                  class="card-img-top"
-                  alt="Product-image"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Product 4</h5>
-                  <p>
-                    Price: <span class="price">$19.99</span>
-                  </p>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <div class="product-details d-flex justify-content-between align-items-center">
-                    <a href="#" class="btn btn-danger btn-sm">
-                      Mua ngay
-                    </a>
-                  </div>
-                </div>
-              </div>
+                );
+              })}
             </div>
           </div>
         </div>
