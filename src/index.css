@@ -15,6 +15,53 @@ code {
   text-decoration: none;
   color: white;
 }
-.image-policy{
-  padding: 0;
+.policy{
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.policy-home{
+  
+}
+.img-policy{
+  padding-top: 10px;
+}
+.policy-con{
+  border: solid 1px ;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.slider-background{
+  
+  background-image: url("https://bizweb.dktcdn.net/100/502/483/themes/941751/assets/home_slider_2.jpg?1715769761546"),
+    url("https://file.hstatic.net/200000722513/file/uu_dai_soc_b6303389c3fb4f26b05bd368f3d61486.jpg"),
+    url("https://file.hstatic.net/200000722513/file/loa_xin_slider_55571db8742146cd85eef265cf950b35.png");
+  background-size: cover;
+  background-position: center;
+  animation: background-animation 15s steps(3) infinite;
+  max-width: 1512px;
+  height: 620px;
+  backdrop-filter: blur(30px);
+}
+.slider{
+  padding: 40px 20px 20px 40px;
+  position: positive;
+  width: 1062px;
+  height: 532px;
+  position: center;
+}
+@keyframes background-animation {
+  0% {
+    background-image: url("https://bizweb.dktcdn.net/100/502/483/themes/941751/assets/home_slider_2.jpg?1715769761546");
+  }
+  50% {
+    background-image: url("https://file.hstatic.net/200000722513/file/uu_dai_soc_b6303389c3fb4f26b05bd368f3d61486.jpg");
+  }
+  100% {
+    background-image: url("https://file.hstatic.net/200000722513/file/loa_xin_slider_55571db8742146cd85eef265cf950b35.png");
+  }
+}
+
+.advertisement-item{
+  width: 114px;
+  height: 164px;
 }
