@@ -6,7 +6,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div>
+    <>
       <header className="bg-light">
         <div className="container">
           <div className="row">
@@ -114,7 +114,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-    </div>
+    </>
   );
 };
 

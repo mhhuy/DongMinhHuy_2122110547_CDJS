@@ -1,0 +1,141 @@
+{
+    "Categorys":[
+        {"id":1, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":2, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":3, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":4, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":5, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":6, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":7, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":8, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"}
+    ],
+    "Products": [
+        {"id":1, "image": "hinh.jpg", "name": "thoi trang nam", "category": "thoi trang mua he", "brand": "Nike"},
+        {"id":2, "image": "hinh.jpg", "name": "thoi trang nam", "category": "thoi trang mua he", "brand": "Adidas"},
+        {"id":3, "image": "hinh.jpg", "name": "thoi trang nam", "category": "thoi trang mua he", "brand": "Puma"},
+        {"id":4, "image": "hinh.jpg", "name": "thoi trang nam", "category": "thoi trang mua he", "brand": "Adidas"},
+        {"id":5, "image": "hinh.jpg", "name": "thoi trang nam", "category": "thoi trang mua he", "brand": "Nike"},
+        {"id":6, "image": "hinh.jpg", "name": "thoi trang nam", "category": "thoi trang mua he", "brand": "Puma"},
+        {"id":7, "image": "hinh.jpg", "name": "thoi trang nam", "category": "thoi trang mua he", "brand": "Adidas"},
+        {"id":8, "image": "hinh.jpg", "name": "thoi trang nam", "category": "thoi trang mua he", "brand": "Nike"}
+    ],
+    "Banners": [
+        {"id":1, "image": "hinh.jpg", "name": "thoi trang nam", "position": "slideshow", "link": "slide-show"},
+        {"id":2, "image": "hinh.jpg", "name": "thoi trang nam", "position": "slideshow", "link": "slide-show"},
+        {"id":3, "image": "hinh.jpg", "name": "thoi trang nam", "position": "slideshow", "link": "slide-show"},
+        {"id":4, "image": "hinh.jpg", "name": "thoi trang nam", "position": "slideshow", "link": "slide-show"},
+        {"id":5, "image": "hinh.jpg", "name": "thoi trang nam", "position": "slideshow", "link": "slide-show"},
+        {"id":6, "image": "hinh.jpg", "name": "thoi trang nam", "position": "slideshow", "link": "slide-show"},
+        {"id":7, "image": "hinh.jpg", "name": "thoi trang nam", "position": "slideshow", "link": "slide-show"},
+        {"id":8, "image": "hinh.jpg", "name": "thoi trang nam", "position": "slideshow", "link": "slide-show"}
+    ],
+    "brand":[
+        {
+            "id":2,
+            "image":"hinh.jpg",
+            "name":"việt nam",
+            "slug":"viet-nam"
+        
+        },
+        {
+            "id":2,
+            "image":"hinh.jpg",
+            "name":"việt nam",
+            "slug":"viet-nam"
+        
+        },
+        {
+            "id":2,
+            "image":"hinh.jpg",
+            "name":"việt nam",
+            "slug":"viet-nam"
+        
+        },
+        {
+            "id":2,
+            "image":"hinh.jpg",
+            "name":"việt nam",
+            "slug":"viet-nam"
+        
+        }
+
+    ],
+    "contact":[
+        {
+            "id":1,
+            "image":"hinh.jpg",
+            "name":"nguyễn đạt",
+            "slug":"nguyen-dat"
+        
+        },
+        {
+            "id":1,
+            "image":"hinh.jpg",
+            "name":"nguyễn đạt",
+            "slug":"nguyen-dat"
+        
+        },
+        {
+            "id":1,
+            "image":"hinh.jpg",
+            "name":"nguyễn đạt",
+            "slug":"nguyen-dat"
+        
+        },
+        {
+            "id":1,
+            "image":"hinh.jpg",
+            "name":"nguyễn đạt",
+            "slug":"nguyen-dat"
+        
+        }
+    ],
+    "Menus" :[
+        {"id":1, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":2, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":3, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":4, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":5, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":6, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":7, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":8, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"}
+    ],
+    "Posts" :[
+        {"id":1, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":2, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":3, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":4, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":5, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":6, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":7, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
+        {"id":8, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"}
+    ],
+    "users":[
+        {"id":1 ,"image":"hinh.jpg","name":"thoi trang nam","slug":"thoi-trang-nam"},
+        {"id":2 ,"image":"hinh.jpg","name":"thoi trang nam","slug":"thoi-trang-nam"},
+        {"id":3 ,"image":"hinh.jpg","name":"thoi trang nam","slug":"thoi-trang-nam"},
+        {"id":4 ,"image":"hinh.jpg","name":"thoi trang nam","slug":"thoi-trang-nam"},
+        {"id":5 ,"image":"hinh.jpg","name":"thoi trang nam","slug":"thoi-trang-nam"},
+        {"id":6 ,"image":"hinh.jpg","name":"thoi trang nam","slug":"thoi-trang-nam"}
+    ],
+    "Oderdetails":[
+        {"id":1, "username": "Nguyen Van Hai", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":2, "username": "Nguyen Van Hai", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":3, "username": "Nguyen Van Hai", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":4, "username": "Nguyen Van Hai", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":5, "username": "Nguyen Van Hai", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":6, "username": "Nguyen Van Hai", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":7, "username": "Nguyen Van Hai", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":8, "username": "Nguyen Van Hai", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"}
+    ],
+    "Order":[
+        {"id":1, "username": "Nguyen Van Ba", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":2, "username": "Nguyen Van Ba", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":3, "username": "Nguyen Van Ba", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":4, "username": "Nguyen Van Ba", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":5, "username": "Nguyen Van Ba", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":6, "username": "Nguyen Van Ba", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":7, "username": "Nguyen Van Ba", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
+        {"id":8, "username": "Nguyen Van Ba", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"}
+    ]
+}

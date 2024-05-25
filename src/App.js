@@ -1,8 +1,8 @@
 import { useRoutes } from "react-router-dom";
-import LayoutSite from "./layouts/LayoutSite";
-import LayoutAdmin from "./layouts/LayoutAdmin";
 import NoPage from "./pages/NoPage";
 import RouterApp from "./routers";
+import LayoutSite from "./layouts/LayoutSite/LayoutSite";
+import LayoutAdmin from "./layouts/LayoutAdmin/LayoutAdmin";
 
 
 function App() {
