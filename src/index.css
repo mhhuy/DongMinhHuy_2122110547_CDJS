@@ -11,15 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.list-unstyled li a{
+Link {
   text-decoration: none;
   color: white;
+}
+.dropdown-menu li Link{
+  text-decoration: none;
+  color: black;
 }
 .policy{
   font-size: 15px;
   padding-bottom: 10px;
 }
-.policy-home{
+.dropdown-item{
   
 }
 .img-policy{

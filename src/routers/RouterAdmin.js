@@ -1,5 +1,10 @@
+import Brand from "../pages/backend/Brand";
 import Category from "../pages/backend/Category";
+import Menu from "../pages/backend/Menu";
+import Post from "../pages/backend/Post";
 import Product from "../pages/backend/Product";
+import Topic from "../pages/backend/Topic";
+import User from "../pages/backend/User";
 import Banner from "../pages/backend/banner";
 
 const RouterAdmin = [
@@ -17,11 +22,11 @@ const RouterAdmin = [
   },
   {
     path: "post",
-    element: <Banner />,
+    element: <Post />,
   },
   {
     path: "topic",
-    element: <Banner />,
+    element: <Topic />,
   },
   {
     path: "order",
@@ -29,15 +34,19 @@ const RouterAdmin = [
   },
   {
     path: "menu",
-    element: <Banner />,
+    element: <Menu />,
   },
   {
     path: "user",
-    element: <Banner />,
+    element: <User />,
   },
   {
     path: "brand",
-    element: <Banner />,
+    element: <Brand />,
+  },
+  {
+    path: "contact",
+    element: <Brand />,
   },
 ];
 export default RouterAdmin;

@@ -29,7 +29,7 @@
         {"id":7, "image": "hinh.jpg", "name": "thoi trang nam", "position": "slideshow", "link": "slide-show"},
         {"id":8, "image": "hinh.jpg", "name": "thoi trang nam", "position": "slideshow", "link": "slide-show"}
     ],
-    "brand":[
+    "Brands":[
         {
             "id":2,
             "image":"hinh.jpg",
@@ -38,21 +38,21 @@
         
         },
         {
-            "id":2,
+            "id":3,
             "image":"hinh.jpg",
             "name":"việt nam",
             "slug":"viet-nam"
         
         },
         {
-            "id":2,
+            "id":4,
             "image":"hinh.jpg",
             "name":"việt nam",
             "slug":"viet-nam"
         
         },
         {
-            "id":2,
+            "id":5,
             "image":"hinh.jpg",
             "name":"việt nam",
             "slug":"viet-nam"
@@ -110,7 +110,7 @@
         {"id":7, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"},
         {"id":8, "image": "hinh.jpg", "name": "thoi trang nu", "slug": "thoi-trang-nu"}
     ],
-    "users":[
+    "Users":[
         {"id":1 ,"image":"hinh.jpg","name":"thoi trang nam","slug":"thoi-trang-nam"},
         {"id":2 ,"image":"hinh.jpg","name":"thoi trang nam","slug":"thoi-trang-nam"},
         {"id":3 ,"image":"hinh.jpg","name":"thoi trang nam","slug":"thoi-trang-nam"},
@@ -137,5 +137,8 @@
         {"id":6, "username": "Nguyen Van Ba", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
         {"id":7, "username": "Nguyen Van Ba", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"},
         {"id":8, "username": "Nguyen Van Ba", "phone": "0123456789", "email": "vanhai@gmail.com","dateorder": "10/05/2024"}
+    ],
+    "Topics": [
+        
     ]
 }

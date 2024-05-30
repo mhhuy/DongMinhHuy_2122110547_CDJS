@@ -2,10 +2,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 import { FaCartPlus } from "react-icons/fa6";
-import Slider from "../../Component/Slider";
-import Policyitem from "../../Component/Policyitem";
+import Slider from "../../Components/Slider";
+import Policyitem from "../../Components/Policyitem";
 import Database from "../../data_fake.json"
-import Productitem from "../../Component/Productitem";
+import Productitem from "../../Components/Productitem";
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Header from "./Header";
